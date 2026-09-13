@@ -3,7 +3,7 @@
 .Technology that you use--A modern and responsive technology stack builder built with React, TypeScript, and Tailwind CSS.
 
 
-.A little description---
+.A little description-
 Dev Stack is a modern and responsive web application where users can explore popular development technologies and build their own personalized technology stack by adding and removing technologies.
 
 features about your project---
