@@ -5,9 +5,7 @@ const Footer = () => {
     <footer className="bg-gray-100 text-black py-12">
       <div className="max-w-6xl mx-auto px-5 grid grid-cols-1 md:grid-cols-4 gap-8">
 
-        {/* Left: Logo + Description */}
         <div>
-          {/* Logo - horizontal */}
           <div className="flex items-center">
             <img
               src={Logo}
@@ -21,7 +19,7 @@ const Footer = () => {
             building modern software.
           </p>
 
-          {/* Social Links */}
+
           <div className="flex gap-5 mt-5 text-sm">
             <a href="#" className="hover:text-pink-500 transition">
               GitHub
@@ -51,9 +49,7 @@ const Footer = () => {
             </li>
 
             <li>
-              <a href="#" className="hover:text-pink-500 transition">
-                Technologies
-              </a>
+              <a href="#" className="hover:text-pink-500 transition">Technologies</a>
             </li>
 
             <li>
@@ -91,7 +87,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Legal Links */}
         <div>
           <h3 className="font-semibold mb-4">
             LEGAL
