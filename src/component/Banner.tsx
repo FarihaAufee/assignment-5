@@ -1,5 +1,6 @@
 import BannerStack from "../assets/banner-stack.png";
 const Banner = () => {
+  
   return (
     <section className="bg-white">
       <div className="max-w-6xl mx-auto px-5 py-16 md:py-24 grid lg:grid-cols-2 gap-12 items-center">
