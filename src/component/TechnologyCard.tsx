@@ -37,17 +37,18 @@ const TechnologyCard = ({
         </span>
       </div>
 
-      {/* Name */}
       <h3 className="font-bold text-slate-900 mt-4">
         {technology.name}
       </h3>
 
-      {/* Description */}
+    
+
+
       <p className="text-xs text-slate-500 mt-2 leading-5 min-h-10">
         {technology.description}
       </p>
 
-      {/* Info Row */}
+      
       <div className="flex items-center justify-between mt-4 text-xs gap-2">
         <span className="bg-slate-100 text-slate-600 px-2 py-1 rounded">
           {technology.category}
@@ -61,7 +62,8 @@ const TechnologyCard = ({
         </span>
       </div>
 
-      {/* Add / Remove Button */}
+
+
       {isAdded ? (
         <button
           onClick={() => onRemove(technology.id)}
